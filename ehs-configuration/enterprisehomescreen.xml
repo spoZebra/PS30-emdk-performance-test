@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <kiosk/>
+  <applications>
+    <application label="PS30 EMDK Perf Test" package="com.spozebra.ps30emdkperftest" activity="com.spozebra.ps30emdkperftest.MainActivity"/>
+  </applications>
+  <auto_launch>
+    <application delay="1000" package="com.spozebra.ps30emdkperftest" activity=""/>
+</auto_launch>
+  <tools/>
+  <passwords>
+    <admin attempts="1"/>
+  </passwords>
+  <user_options/>
+  <preferences>
+    <orientation/>
+    <wallpaper/>
+    <usb_debugging_disabled>1</usb_debugging_disabled>
+    <icon_label_text_color>#FFFFFFFF</icon_label_text_color>
+    <recent_apps_button_disabled>1</recent_apps_button_disabled>
+    <auto_launch_enable>1</auto_launch_enable>
+    <system_settings_restricted>1</system_settings_restricted>
+    <recent_apps_access_disabled>1</recent_apps_access_disabled>
+    <icon_label_background_color>#00FFFFFF</icon_label_background_color>
+    <kiosk_mode_enabled>0</kiosk_mode_enabled>
+    <title>Enterprise Home Screen</title>
+    <wireless_info>
+      <show_ip_address>0</show_ip_address>
+      <show_mac_address>0</show_mac_address>
+      <show_bssid>0</show_bssid>
+      <show_ssid>0</show_ssid>
+      <show_scan_result>0</show_scan_result>
+    </wireless_info>
+    <screen_blanking>
+      <blanking_enabled>0</blanking_enabled>
+      <speed_threshold>10</speed_threshold>
+      <blanking_mode>1</blanking_mode>
+    </screen_blanking>
+  </preferences>
+</config>
